@@ -45,6 +45,9 @@ The event will contain two fields:
 - ZebraPrintingExtensionId: The extension ID (ndikjdigobmbieacjcgomahigeiobhbo)
 - ZebraPrintingVersion: The version number of the installed extension
 
+Optionally, you can send a message with the type `zebra_ping`, and the extension will respond with the same message. This can be useful if your code adds the event listener after the initial message has already been sent.
+
+
 ## Tested Printers
 
 - ZT220 with firmware V72.19.15Z, V72.20.01Z
